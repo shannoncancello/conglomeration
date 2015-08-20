@@ -20,8 +20,8 @@ h1 {
 
 
 p {
-  padding-top: 20px;
-  box-sizing: border-box;
+  padding: 20px 25% 20px 20px;
+  text-align: left;
 }
 
 img {
@@ -60,10 +60,12 @@ nav {
   margin: 0.333em 2em;
   padding: 0; 
   }
+
 .bar li {
     display: inline-block;
     transform: skew(-20deg);
   }
+
 .bar li a {
     display: block;
     text-decoration: none;
@@ -77,15 +79,22 @@ nav {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
     transition: all 100ms linear; 
     }
+
 .bar li a:hover {
       background: #172840;
     }
   
-
 .main-footer {
   box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid #203657;
   }
-}
+
+.social-icon {
+  width: 65px;
+  height: 65px;
+  margin: 0 5px;
+  }
+
+
