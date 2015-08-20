@@ -24,7 +24,9 @@ p {
 }
 
 img {
-  padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
 
 .title {
