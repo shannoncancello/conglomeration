@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Squada+One);
 
 * {
-  background-color: #A0A0A0;
+  background-color: #2A4873;
 }
 
 h1 {  
@@ -19,9 +19,10 @@ h1 {
 
 
 
-p {
+.maintext {
   padding: 20px 25% 20px 20px;
   text-align: left;
+  border: 5px ridge #203657;
 }
 
 img {
@@ -85,17 +86,14 @@ nav {
     }
   
 .main-footer {
-  box-sizing: border-box;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #203657;
+  border: 5px ridge #203657;
   }
 
 .social-icon {
   display: inline-block;
-  width: 65px;
-  height: 65px;
-  margin-left: 15em;
+  width: 40px;
+  height: 40px;
+  margin-left: 5em;
   }
 
 
