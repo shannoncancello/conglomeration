@@ -8,6 +8,11 @@
   background-color: #305182;
 }
 
+body {
+ text-align: center; 
+ margin: 0 auto;
+}
+
 p {
   margin: 1.6em 0;
 }
@@ -112,8 +117,8 @@ nav {
   display: inline-block;
   width: 30px;
   height: 30px;
-  margin-left: 5em;
-  text-align: center;
+  margin: 0 auto;
+  padding: 0;
   float: none;
   }
   
