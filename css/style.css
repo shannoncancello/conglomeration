@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Squada+One);
 
 * {
-  background-color: #2A4873;
+  background-color: #305182;
 }
 
 h1 {  
@@ -23,6 +23,7 @@ h1 {
   padding: 20px 25% 20px 20px;
   text-align: left;
   border: 5px ridge #203657;
+  color: #eee;
 }
 
 img {
@@ -96,4 +97,21 @@ nav {
   margin-left: 5em;
   }
 
+/* Pseudo-classes ------------------ */
 
+a:link {
+  color: rgb(255, 201, 94);
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: rgb(178, 129, 30);
+}
+
+a:active {
+  color: rgb(119, 174, 255);
+}
