@@ -19,6 +19,12 @@ h1 {
   border: 5px ridge #203657;
 }
 
+h2 {
+  font-size: 150%;
+  text-align: center;
+  text-shadow: 1px 1px slategray;
+}
+
 h4 {
   color: lightgray;
   font-size: 150%;
@@ -35,7 +41,7 @@ em {
   color: #eee;
 }
 
-img {
+#banner {
   display: block;
   margin-left: auto;
   margin-right: auto; 
