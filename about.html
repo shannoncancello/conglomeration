@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ConGlomeration</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body> 
+    <header>
+      <img src="banner.js" id="banner" alt="Random image"/>
+    </header>
+    <nav>
+    <ul class="bar">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html" class="current_tab">About</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Masquerade</a></li>
+      <li><a href="#">Registration</a></li>
+      <li><a href="sponsor.html">Sponsor Us</a></li>
+    </ul>
+  </nav>
+    <div id="content">
+      <h1>About Conglomeration</h1>
+       
+      
+    </div>
+      
+    
+    <footer class="main-footer">
+      <a href="http://twitter.com/shannoncancello"><img src="photos/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+      <a href="http://facebook.com/shannoncancello"><img src="photos/facebook.png" alt="Facebook Logo" class="social-icon"></a>
+      <a href="http://instagram.com/shannoncancello"><img src="photos/instagram.png" alt="Instagram Logo" class="social-icon"></a>
+      <a href="http://pinterest.com/shannoncancello"><img src="photos/pinterest.png" alt="Pinterest Logo" class="social-icon"></a>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    var images = new Array('photos/avengers.jpg', 'photos/doctor.jpg', 'photos/tmng.jpg', 'photos/trek.jpg');
+    var l = images.length;
+    var random_no = Math.floor(l*Math.random());
+    document.getElementById("banner").src = images[random_no];
+  </script>
+  
+</html>
