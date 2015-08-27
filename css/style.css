@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Squada+One);
 
 * {
-  background-color: slategray;
+  background-color: #305182;
 }
 
 h1 {  
@@ -16,30 +16,23 @@ h1 {
   text-align: center;
   font-style: bold;
   text-shadow: 2px 2px slategray;
-  background-color: #305182;
+  border: 5px ridge #203657;
 }
 
 h4 {
   color: lightgray;
   font-size: 150%;
-  background-color: #305182;
+  text-shadow: 1px 1px black;
 }
 
 em {
   font-style: italic;
-  background-color: #305182;
-}
-
-p {
-  background-color: #305182;
 }
 
 #content {
   padding: 20px 25% 20px 20px;
   text-align: left;
-  border: 5px ridge #203657;
   color: #eee;
-  background-color: #305182;
 }
 
 img {
@@ -47,9 +40,6 @@ img {
   margin-left: auto;
   margin-right: auto; 
 }
-
-
-
 
 
 /* Navbar -----------------------------*/
@@ -101,27 +91,21 @@ nav {
   border: 5px ridge #203657;
   padding: 2em;
   align-content: center;
-  background-color: #305182;
   margin: 20px 0;
   }
 
 .social-icon {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin-left: 5em;
   text-align: center;
   float: none;
-  background-color: #305182;
   }
   
 
 
 /* Pseudo-classes ------------------ */
-
-a {
-  background-color: #305182;
-}
 
 a:link {
   color: rgb(255, 201, 94);
