@@ -8,6 +8,10 @@
   background-color: #305182;
 }
 
+p {
+  margin: 1.6em 0;
+}
+
 h1 {  
   text-transform: uppercase;
   font-weight: normal;
