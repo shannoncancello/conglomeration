@@ -88,6 +88,10 @@ nav {
 .bar li a:hover {
       background: #172840;
     }
+
+.bar .current_tab {
+  background: #172840;
+}
   
 /* Footer -----------------------------*/
 
