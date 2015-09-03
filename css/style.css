@@ -69,15 +69,30 @@ nav {
   
 }
 
+nav ul ul {
+  display: none;
+}
+
+  .bar li:hover > ul {
+    display: block;
+  }
+
+
 .bar {
   background:#2A4873;
   margin: 0.333em 2em;
   padding: 0; 
+  position: relative;
+  display: inline-block;
   }
 
-.bar li {
+.bar > li {
     display: inline-block;
     transform: skew(-20deg);
+  }
+
+.bar ul li {
+    display: block;
   }
 
 .bar li a {
@@ -101,6 +116,14 @@ nav {
 .bar .current_tab {
   background: #172840;
 }
+
+nav ul ul {
+  background: none; border-radius: auto; padding: 0;
+  position: absolute; top: 100%;
+  
+}
+
+
   
 /* Footer -----------------------------*/
 
