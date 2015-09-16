@@ -6,15 +6,17 @@
 
 * {
   background-color: #305182;
+  margin:0;
+  padding:0;
 }
 
 body {
  text-align: center; 
- margin: 0 auto;
+ padding: 0 auto;
 }
 
 p {
-  margin: 1.6em 0;
+  padding: 1.6em 0;
 }
 
 h1 {  
@@ -48,11 +50,7 @@ em {
   font-style: italic;
 }
 
-#content {
-  padding: 20px 25% 20px 20px;
-  text-align: left;
-  color: #eee;
-}
+
 
 #banner {
   display: block;
@@ -60,6 +58,21 @@ em {
   margin-right: auto; 
   max-width: 100%;
   max-height: 100%;
+}
+
+/* Floats-------------- */
+
+.main-content {
+  padding: 20px 5% 20px 20px;
+  text-align: left;
+  color: #eee;
+  float: left;
+  max-width: 70%;
+  overflow: auto;
+}
+
+.widget {
+  float: right;
 }
 
 
@@ -129,8 +142,9 @@ nav ul ul {
   
 }
 
+/* sticky footer ------------*/
 
-  
+
 /* Footer -----------------------------*/
 
 
@@ -139,7 +153,6 @@ nav ul ul {
   border: 5px ridge #203657;
   padding: 2em;
   align-content: center;
-  margin: 20px 0;
   }
 
 .social-icon {
