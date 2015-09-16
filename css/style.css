@@ -73,6 +73,7 @@ em {
 
 .widget {
   float: right;
+  padding-right: 0;
 }
 
 
@@ -151,7 +152,7 @@ nav ul ul {
 
 .main-footer {
   border: 5px ridge #203657;
-  padding: 2em;
+  padding: 16px;
   align-content: center;
   }
 
@@ -183,4 +184,10 @@ a:hover {
 
 a:active {
   color: rgb(119, 174, 255);
+}
+
+/* Pictures ----------------- */
+
+#your-ad {
+  padding: 1em;
 }
