@@ -74,15 +74,19 @@ em {
 
 .widget {
   float: right;
-  padding-right: .5em;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  margin-bottom: 3em;
 }
 
+.form-group {
+  border: 10px solid #203657;
+}
 
 /* Navbar -----------------------------*/
 
 nav {
   display: block;
-  margin: 20px 0;
   background: #2A4873;
   box-shadow: inset 0 0 0 2px #172840;
   border-top: 10px solid #203657;
@@ -190,6 +194,9 @@ a:active {
 
 .content-photo {
   padding: 1em;
+  float: right;
+  width: 40%;
+  height: 40%;
 }
 
 /* Gallery --------------------------- */
@@ -230,7 +237,7 @@ a:active {
 
 #overlay img {
   margin-top: 3.5%;
-  max-width: 400px;
+  max-width: 30%;
 }
 
 #overlay p {
@@ -268,12 +275,18 @@ a:active {
   max-width: 100%;
   }
 
+  .content-photo {
+    float: none;
+    width: 85%;
+    height: 85%;
+  }
+
 }
 
 @media (min-width: 481px) and (max-width: 830px) {
   .widget {
     float: none;
-    padding: 1em;
+    padding: 3em;
   }
   .main-content {
   padding: 1em;
